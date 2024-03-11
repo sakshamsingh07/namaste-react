@@ -1,0 +1,26 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "my react learning",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sakshamsingh07/namaste-react.git"
+  },
+  "author": "Saksham Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sakshamsingh07/namaste-react/issues"
+  },
+  "homepage": "https://github.com/sakshamsingh07/namaste-react#readme",
+  "dependencies": {
+    "process": "^0.11.10",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

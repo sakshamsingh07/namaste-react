@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 //In react while creating the element we always pass 3 argument (htmlTags , object , children) , where msg is the children . 2nd + 3rd argument is know as props
 // const heading = React.createElement(
 //     "h1",
@@ -63,10 +66,11 @@
  * 
  */ 
 
+
 const divparent = React.createElement("div", {id: "parent"}, 
 [React.createElement("div", {id: "child"},
-[React.createElement("h1", {}, "i am child"),
-React.createElement("h2", {}, "i am child 2")]),
+[React.createElement("h1", {}, "i am father"),
+React.createElement("h2", {}, "i am mother")]),
 React.createElement("div", {id:"child2"},
 [React.createElement("h3", {}, "i am child 3"),
 React.createElement("h4", {}, "i am child 4")])])
